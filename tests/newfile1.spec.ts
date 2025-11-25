@@ -22,6 +22,7 @@ test('@alert alertchecking',async({page})=>{
     await alerts.alerts();
     await page.pause()
 })
+
 test('@click clickactions',async({page})=>{
     const utility=new Utility(page)
     const buttons=new Buttons(page)

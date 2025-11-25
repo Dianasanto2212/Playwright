@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10656","@upload upload and download","chromium","Mon Nov 24 18:27:24 IST 2025","passed","Mon Nov 24 18:27:35 IST 2025","","newfile1.spec.ts","",""
+"","11520","@text @upload text and clear","chromium","Mon Nov 24 18:27:12 IST 2025","passed","Mon Nov 24 18:27:24 IST 2025","","newfile1.spec.ts","",""

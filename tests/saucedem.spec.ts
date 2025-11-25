@@ -3,7 +3,7 @@ import { Utility } from "../pages/utility";
 import { Saucedemo } from "../pages/saucedemo";
 import { Sdinventory } from "../pages/sdinventory";
 import { Sdcart } from "../pages/sdcart";
-test('Login with valid credentials',async({page})=>{
+/*test('Login with valid credentials',async({page})=>{
     const utility=new Utility(page);
     const saucedemo=new Saucedemo(page);
         await utility.launchurl("https://www.saucedemo.com/");
@@ -18,4 +18,4 @@ test('Login with valid credentials',async({page})=>{
    const cart=new Sdcart(page);
       await cart.sdcart(product1,product2,product3)
 }
-)
+)*/

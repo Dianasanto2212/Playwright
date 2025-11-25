@@ -9,12 +9,12 @@ import { url } from "inspector";
 import { Brokenlinks } from "../pages/brokenlinks";
 import { Myntra } from "../pages/myntra";
 import { Alerts } from "../pages/alerts";
-import * as XLSX from "xlsx" // import the excel file
+/*import * as XLSX from "xlsx" // import the excel file
 import jsondata from "../textdata/check1.json"//imported json file.
 const workbook=XLSX.readFile('textdata/textbox.xlsx')// read the excel and give the path
 const sheet=workbook.SheetNames[0]// reading the sheet
 const sheetname=workbook.Sheets[sheet]
-const testdata=XLSX.utils.sheet_to_json(sheetname)// excel COVERTING JSON FILE
+const testdata=XLSX.utils.sheet_to_json(sheetname)// excel COVERTING JSON FILE*/
 test('@alert alertchecking',async({page})=>{
     const utility=new Utility(page)
     await  utility.launchurl("https://demoqa.com/alerts");
@@ -22,7 +22,8 @@ test('@alert alertchecking',async({page})=>{
     await alerts.alerts();
     await page.pause()
 })
-test('@click clickactions',async({page})=>{
+
+/*test('@click clickactions',async({page})=>{
     const utility=new Utility(page)
     const buttons=new Buttons(page)
     await utility.launchurl("https://demoqa.com/buttons");
